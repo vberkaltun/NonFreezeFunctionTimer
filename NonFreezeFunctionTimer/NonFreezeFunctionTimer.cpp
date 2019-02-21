@@ -291,7 +291,7 @@ bool FunctionTimer::stopProcess(void(*pointer)(void))
 		for (char currentQueueCount = 0; currentQueueCount < timerQueueCount; currentQueueCount++)
 		{
 			// save the last time you blinked the LED
-			if (timerQueueArray[currentQueueCount].pointer == pointer) 
+			if (timerQueueArray[currentQueueCount].pointer == pointer)
 			{
 				timerQueueArray[currentQueueCount].enabledStatus = false;
 
