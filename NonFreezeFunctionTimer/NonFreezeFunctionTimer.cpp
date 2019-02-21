@@ -35,6 +35,7 @@
  // Checks a given function pointer that was added at before or not.
  // This step is required for avoiding multiple addition of a function.
  //
+ // <Param Name:"pointer"> Pointer of function.
  // <Returns> Boolean, if not added at before true, otherwise false.
  //
 bool FunctionTimer::isRegistered(void(*pointer)(void))
@@ -57,9 +58,10 @@ bool FunctionTimer::isRegistered(void(*pointer)(void))
 }
 
 //
-// Checks a given function range. Max and min range was declared as constant.
-// You can update it depending on your purpose and sketch.
+// Checks the interval of a given function. Max and min range was declared 
+// As constant. You can update it depending on your purpose and sketch.
 //
+// <Param Name:"intervalMillis"> Interval millis of a given function.
 // <Returns> Boolean, if range is correct true, otherwise false.
 //
 bool FunctionTimer::checkRange(unsigned short intervalMillis)
@@ -153,7 +155,6 @@ bool FunctionTimer::attach(void(*pointer)(void), unsigned short intervalMillis, 
 }
 
 //
-// 
 // <Param Name:"pointer"> Pointer of function that will delete.
 // <Returns> Boolean, if successful true, otherwise false.
 //
