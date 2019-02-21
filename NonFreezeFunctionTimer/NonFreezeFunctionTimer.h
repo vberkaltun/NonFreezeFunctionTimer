@@ -1,6 +1,6 @@
 /*
  * NonFreezeFunctionTimer.h
- * TIMER QUEUE - 29.03.2018
+ * NON FREEZE FUNCTION TIMER - 29.03.2018
  *
  * =============================================================================
  *

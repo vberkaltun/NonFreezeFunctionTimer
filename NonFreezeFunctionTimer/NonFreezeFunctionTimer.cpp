@@ -1,6 +1,6 @@
 /*
  * NonFreezeFunctionTimer.cpp
- * TIMER QUEUE - 28.04.2018
+ * NON FREEZE FUNCTION TIMER - 28.04.2018
  *
  * =============================================================================
  *
