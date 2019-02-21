@@ -81,7 +81,7 @@ bool FunctionTimer::checkRange(unsigned short intervalMillis)
 //
 // Constructor.
 //
-FunctionTimer::Timer()
+FunctionTimer::FunctionTimer()
 {
 }
 
