@@ -40,14 +40,14 @@
 #include "WProgram.h"
 #endif
 
-//
-// Constants. Please be carefully when updating all of this. Otherwise, 
-// Your sketch may not run very well as before. Do not forget that,
-//
-// The MIN value Must be smaller than MAX value. 
-// INTERVAL value should not be zero or minus. 
-// QUEUE size should not be bigger then your memory size of device.
-//
+ //
+ // Constants. Please be carefully when updating all of this. Otherwise, 
+ // Your sketch may not run very well as before. Do not forget that,
+ //
+ // The MIN value Must be smaller than MAX value. 
+ // INTERVAL value should not be zero or minus. 
+ // QUEUE size should not be bigger then your memory size of device.
+ //
 #define DEFAULT_INTERVAL_MILLIS 500
 #define DEFAULT_INTERVAL_MILLIS_MIN 10
 #define DEFAULT_INTERVAL_MILLIS_MAX 60000
